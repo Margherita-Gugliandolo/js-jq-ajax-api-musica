@@ -15,7 +15,7 @@ function addAlbums() {
 
       console.log(albums);
 
-      albumsHtml(albums); //funzione per stampare gli album richiamati
+      albumsHtml(albums); //funzione per stampare gli array di album richiamati
     },
     error: function (request, error, state) {
       console.log("ops..si è verificato un problema");
